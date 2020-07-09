@@ -1,0 +1,5 @@
+Open terminal/command line
+crontab -e
+15 * * * * python3 path/ticker_against_website/scrape_privatbo.py >/dev/null 2>&1
+
+OBS check if log is created and written to
